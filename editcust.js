@@ -1,5 +1,5 @@
 $(function () {
-    $.get("customers.json", function (data) {
+    $.get("data/customers.json", function (data) {
         console.log(data);
 
         var Search = data;
